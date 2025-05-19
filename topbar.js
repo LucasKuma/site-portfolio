@@ -5,8 +5,8 @@ class Header extends HTMLElement {
         this.innerHTML = `
             <div class="topbar__container">
                 <div class="navbuttons__topbar">
-                <a href="../home/index.html" class="kumadev"><i class="fa fa-code" style="margin-right: .5vh;"></i>KumaDev</a>
-                <button type="button"><a href="../home/index.html">Home</a></button>
+                <a href="/index.html" class="kumadev"><i class="fa fa-code" style="margin-right: .5vh;"></i>KumaDev</a>
+                <button type="button"><a href="/index.html">Home</a></button>
                 <button type="button"><a href="../formacao/formacao.html">Formação</a></button>
                 <button type="button"><a href="../portfolio/portfolio.html">Portfólio</a></button>
                 <button type="button"><a href="../contato/contato.html">Contato</a></button>
