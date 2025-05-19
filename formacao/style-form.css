@@ -1,0 +1,89 @@
+.formacao__container {
+    width: 80%;
+    height: 700px;
+
+    margin-left: 10%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 40px;
+    
+}
+
+.formacao__container > .titulo {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+
+    font-size: 90px;
+    margin-bottom: 50px;
+
+    background: -webkit-linear-gradient(#b665f4, #614876);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.duplas__container {
+
+    display: flex;
+    align-items: center;
+}
+
+.formacao {
+    border-radius: .7vh;
+
+    height: 200px;
+    padding: 3vh;
+
+    width: 45%;
+    margin: auto;
+
+    margin-bottom: 4vh;
+
+    border-radius: 1vh;
+    box-shadow:
+    inset 0 -3em 3em rgba(140, 0, 200, 0.2),
+    0 0 0 2px rgb(118, 63, 150),
+    0.3em 0.3em 1em rgba(177, 0, 200, 0.4);
+}
+
+.formacao > button:hover {
+    scale: 105%;
+    transition: .2s;
+}
+.formacao > button {
+    margin-top: 2.3vh;
+}
+
+.formacao > button > a {
+    font-size: 13px;
+    background-color: black;
+    border: 1px solid rgb(93, 93, 93);
+    padding: 7px;
+
+    border-radius: 1vh;
+}
+
+.header__formacao {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.3vh;
+}
+
+.nome > h2 {
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+}
+
+.header__formacao > .nome {
+    
+}
+
+i{
+    background: -webkit-linear-gradient(#b665f4, #614876);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

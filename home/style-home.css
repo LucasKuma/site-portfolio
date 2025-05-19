@@ -1,0 +1,81 @@
+
+.intro__container {
+
+    width: 50%;
+    height: 700px;
+
+    margin-left: 25%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__container > .hello__intro {
+    display: flex;
+    align-items: center;
+}
+
+.intro__container > .hello__intro > h1 {
+    max-width: 500px;
+    font-size: 70px;
+    line-height: 0.9;
+
+    background: -webkit-linear-gradient(#b665f4, #614876);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro__container > p {
+    padding: 30px 0 15px;
+    max-width: 630px;
+    font-size: 110%;
+}
+
+.intro__container > .links__intro {
+    display: flex;
+    max-width: 630px;
+
+    align-items: center;
+    justify-content: left;
+}
+
+.intro__container > .links__intro > .contate {
+    font-size: 13px;
+    background-color: black;
+    border: 1px solid rgb(93, 93, 93);
+    padding: 7px;
+
+    border-radius: 1vh;
+    margin: 2vh;
+}
+
+.intro__container > .links__intro > button:hover {
+    scale: 108%;
+    transition: .2s;
+}
+
+.links__intro > p {
+    padding: 0 3vh;
+}
+
+.intro__container > .links__intro > a {
+    margin: 2vh;
+}
+
+.intro__container > .links__intro > a:hover {
+    scale: 115%;
+    transition: .2s;
+}
+
+img {
+    border-radius: 100%;
+    margin-right: 3vh;
+}
+
+b {
+    background: -webkit-linear-gradient(#d9a8ff, #9659dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

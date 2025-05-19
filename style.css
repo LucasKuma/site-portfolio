@@ -1,0 +1,83 @@
+/*CSS aplicado em todas as páginas, com alguns placeholders*/
+
+body {
+    background-image: url("../imgs/luzes-de-neon-gradientes-abstratas.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: rgb(11, 11, 11);
+    color: rgb(241, 241, 241);
+    background: none;
+}
+
+.topbar__container {
+
+    margin-top: 10px;
+    
+    height: 50px;
+}
+
+.topbar__container > .navbuttons__topbar{
+
+    margin-left: 30vh;
+
+    height: 100%;
+    max-width: 80vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.navbuttons__topbar > .kumadev {
+    display: flex;
+    align-items: center;
+
+    font-weight: normal;
+
+    padding-right: 2vh;
+    font-size: 3vh;
+
+    background: -webkit-linear-gradient(#b665f4, #754898);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.topbar__container > .navbuttons__topbar > button {
+    margin: auto;
+}
+
+.topbar__container > .navbuttons__topbar > button:hover{
+    scale: 110%;
+    transition: .2s;
+}
+
+.topbar__container > .navbuttons__topbar > button > a{
+    font-size: 14px;
+    padding: 7px 10px;
+}
+
+.topbar__container > .navbuttons__topbar > button > a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 50px;
+    transition: .2s;
+}
+
+.topbar__container > .navbuttons__topbar > button > a {
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+}
