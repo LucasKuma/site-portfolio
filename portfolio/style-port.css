@@ -54,6 +54,7 @@ img {
 
 .sobre__projeto > p {
     margin-bottom: 2vh;
+    max-width: 700px;
 }
 
 .sobre__projeto > a {

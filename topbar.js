@@ -9,7 +9,7 @@ class Header extends HTMLElement {
                 <button type="button"><a href="../home/index.html">Home</a></button>
                 <button type="button"><a href="../formacao/formacao.html">Formação</a></button>
                 <button type="button"><a href="../portfolio/portfolio.html">Portfólio</a></button>
-                <button type="button"><a href="mailto:lucas.khmn@gmail.com">Contato</a></button>
+                <button type="button"><a href="../contato/contato.html">Contato</a></button>
                 </div>
             </div>
         `;
